@@ -2,10 +2,13 @@
 
 This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. We can use the [K-S chart](https://www.listendata.com/2019/07/KS-Statistics-Python.html) to evaluate which customers will default on their credit card payment
 ![image](https://user-images.githubusercontent.com/96238505/154837828-3c670987-9b66-44d9-bdb3-2d191aa9b838.png)
+
 Data Description
+
 We have records of 30000 customers. Below are the description of all features:
 
 ID: ID of each client
+
 LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit
 SEX: Gender (1=male, 2=female)
 EDUCATION: (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 6=unknown)
